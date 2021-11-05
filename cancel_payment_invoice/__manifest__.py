@@ -4,16 +4,15 @@
 {
     'name': ' Cancel Invoice & Payment ',
     "version": "15.0.1.0.0",
-    'category': 'Sales/Sales',
     'description': """
 This module helps to cancel invoice & payment.
 =============================================
 
 This gives the possibility to update invoice or payment method.
     """,
-    "category": "Invoicing",
+    "category": "Invoicing/Sales",
     'license': 'AGPL-3',
-    'images': ['static/description/icon.jpg'],
+    'images': ['static/description/icon.png'],
     "category": "Sale",
     'author': 'Odoo Consultant medconsultantweb@gmail.com',
     'website': 'http://www.weblemon.org',
