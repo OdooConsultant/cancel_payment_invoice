@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_action_cancel_payment" model="ir.ui.view">
+        <field name="name">wizard.confirm.cancel.payment.form</field>
+        <field name="model">wizard.confirm.cancel.payment</field>
+        <field name="arch" type="xml">
+            <form>
+
+                <div class="alert alert-danger" role="alert">
+                    <p>Do you want to cancel the payment?</p>
+                </div>
+                <footer>
+                    <button name="cancel_payment" type="object" string="Confirm" class="oe_highlight"/>
+                    <button string="Cancel" special="cancel" class="oe_highlight"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
