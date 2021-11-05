@@ -12,7 +12,7 @@ This gives the possibility to update invoice or payment method.
     """,
     "category": "Invoicing/Sales",
     'license': 'AGPL-3',
-    'images': ['static/description/icon.jpg'],
+    'images': ['static/description/icon.png'],
     "category": "Sale",
     'author': 'Odoo Consultant medconsultantweb@gmail.com',
     'website': 'http://www.weblemon.org',
