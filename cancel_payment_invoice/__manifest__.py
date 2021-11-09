@@ -16,8 +16,6 @@ This gives the possibility to update invoice or payment method.
     "category": "Sale",
     'author': 'Odoo Consultant medconsultantweb@gmail.com',
     'website': 'http://www.weblemon.org',
-    'price': '13.0',
-    'currency': 'USD',
 
     'depends': ['sale_management','account'],
     'demo': [],
