@@ -10,6 +10,8 @@ This module helps to cancel invoice & payment.
 
 This gives the possibility to update invoice or payment method.
     """,
+	"price": 25,
+    "currency": "EUR",
     "category": "Invoicing/Sales",
     'license': 'AGPL-3',
     'images': ['static/description/icon.png'],
@@ -24,4 +26,6 @@ This gives the possibility to update invoice or payment method.
         'views/inherited_account_move.xml',
         'wizards/wizard_confirm_cancel_payment.xml',
     ],
+	'license': 'OPL-1',
+
 }
